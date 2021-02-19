@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cadastroJogadores">
+        <label for="jogador1">Digite o nome do primeiro jogador</label>
+        <input  type="text" class="jogador1">
+        <label for="jogador2">Digite o nome do segundo jogador</label>
+        <input type="text" class="jogador2"> 
+        <button  class="comeca">Começar</button>
+
+    </div>
+ 
+    
+    <header>
+        <div class="info">
+            <h1>Jogo da Velha</h1>
+            <div class="nomeJogadores">
+                <h4 class="nomeJogador1"></h1>
+                <p class="versos">VS</p>
+                <h4 class="nomeJogador2"></h1>
+            </div>
+            <h3></h3>
+
+        </div>
+        
+        <div id="grade">
+
+            <section>
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
+            </section>
+            <section>
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
+            </section>
+            <section>
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
+                <div class="quadrado"></div>
+            </section>
+    
+        </div>
+
+        <footer>
+            <button type="button" class="resetar">Reset</button>
+        </footer>
+
+
+
+    </header>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+
+.cadastroJogadores{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cadastroJogadores label{
+    color: white;
+    font-size: 25px;
+    margin: 10px 0px;
+
+}
+
+.cadastroJogadores input{
+    width: 500px;
+    border:none;
+    border-radius: 50px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+.cadastroJogadores .comeca{
+    background-color: green;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+header{
+    width: 50%;
+    height: 100vh;
+    background-color:rgb(100, 100, 100);
+    display: none;
+
+}
+
+.info{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info h1{
+    margin: 5px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info h4{
+    margin: 5px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.nomeJogadores{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+}
+
+
+
+.nomeJogadores .versos{
+    color: white;
+}
+
+#grade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;  
+}
+
+#grade section{
+    display: flex;
+    background-color: black;
+}
+
+#grade section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    background-color: #2e3d42;
+    border:3px solid #0b1c22;
+    cursor: pointer;
+}
+
+footer{
+    margin-top:20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .resetar{
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius:50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.removerDiv{
+    display: none;
+}
