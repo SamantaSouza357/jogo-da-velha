@@ -7,27 +7,22 @@ let i = 0;
 let inputJogador1 = document.querySelector(".jogador1");
 let inputJogador2 = document.querySelector(".jogador2");
 let comeca = document.querySelector(".comeca");
-let nomeJogador1 = document.querySelector(".nomeJogador1")
-let nomeJogador2 = document.querySelector(".nomeJogador2")
+let nomeJogador1 = document.querySelector(".nomeJogador1");
+let nomeJogador2 = document.querySelector(".nomeJogador2");
 let header = document.querySelector("header");
-let divForm = document.querySelector(".cadastroJogadores")
+let divForm = document.querySelector(".cadastroJogadores");
 
 
 function iniciar (){
     if(inputJogador1.value != "" && inputJogador2.value != ""){
-        divForm.classList.add("removerDiv");
+        divForm.style.display = "none";
         header.style.display = "block";
-        nomeJogador1.innerHTML = inputJogador1.value 
-        nomeJogador2.innerHTML = inputJogador2.value 
+        nomeJogador1.innerHTML = inputJogador1.value ;
+        nomeJogador2.innerHTML = inputJogador2.value;
     }else{
-        alert("preencha todos os campos")
+        alert("preencha todos os campos");
     }
-
-    
-    
 }
-
-
 
 function jogada (){
    
